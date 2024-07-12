@@ -29,11 +29,11 @@ After cloning the repo, simply run the following command:
 docker compose up --build
 ```
 
-It will build all three images eand run the containers
+It will build all three images and run the containers
 
 Now, simply access your `localhost:8080`, and `nginx` will proxy it to the port `3000` inside the `node` container that is running our application
 
-Everytime you reload the page, a nre `record` will be added to the `people` table with a ramdon person name. And a List with all the names will be outputed in the page, like so:
+Everytime you reload the page, a new `record` will be added to the `people` table with a random person name. And a List with all the names will be outputed in the page, like so:
 
 ![Screenshot 2024-07-12 125356](https://github.com/user-attachments/assets/e24df2c0-c7ed-46f8-8b6c-3e155add54c7)
 

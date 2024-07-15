@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 ENV DOCKERIZE_VERSION=v0.7.0
 RUN apk update --no-cache \
